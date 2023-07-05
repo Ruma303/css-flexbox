@@ -1,6 +1,6 @@
 .container {
+  height: 200px;
   background-color: blue;
-  /* height: 300px; */
   display: flex;
   /* flex-wrap: wrap; */
   /* gap: 30px; */
@@ -13,8 +13,8 @@
 /* align-content: center; */
 
 .item {
+ /*  height: 30px; */
   width: 50%;
-  height: 30px;
   margin: 10px;
   background-color: rgb(0, 203, 206);
   font-size: 1.7rem;
@@ -45,6 +45,12 @@
 }
  */
 
+/* $ align-self */
+
+#item2 {
+  align-self: stretch;
+}
+
 /* $ flex-grow */
 /* #item1 {
   flex-grow: 1;
@@ -73,12 +79,3 @@
 /* #item2 {
   flex: 1 1 10rem;
 } */
-
-
-
-
-
-
-
-
-
